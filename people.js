@@ -1,4 +1,4 @@
-const user = require ('./name.js');
+const user = require('./name.js');
 
 const firstname = 'mario';
 const lastname = 'rossi';
@@ -9,7 +9,7 @@ console.log(user_Name);
 //hobbies
 
 //importo la funzione
-const hobbies = require ('./hobbies.js')
+const hobbies = require('./hobbies.js')
 const hobbyOne = 'leggere';
 const hobbyTwo = 'correre';
 const hobbyThree = 'vedere film';
