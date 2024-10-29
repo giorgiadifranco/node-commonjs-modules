@@ -21,5 +21,7 @@ console.log(iMieihobbies);
 /*Crea una funzione che non ha parametri. 
  La funzione dovrebbe restituire un oggetto con tre proprietà: firstName, lastName, hobbies.*/
  function people (){ 
-    return { user_Name, iMieihobbies }
+    return person = { user_Name, iMieihobbies }
 }
+
+console.log(people());
