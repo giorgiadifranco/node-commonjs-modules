@@ -18,5 +18,8 @@ const iMieihobbies = hobbies (hobbyOne, hobbyTwo, hobbyThree)
 
 console.log(iMieihobbies);
 
-
-console.log(hobbies(hobbyOne, hobbyTwo, hobbyThree));
+/*Crea una funzione che non ha parametri. 
+ La funzione dovrebbe restituire un oggetto con tre proprietà: firstName, lastName, hobbies.*/
+ function people (){ 
+    return { user_Name, iMieihobbies }
+}
