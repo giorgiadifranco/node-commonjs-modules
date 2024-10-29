@@ -1,17 +1,24 @@
 
-const user = {
+/*const user = {
 
     firstname : 'Harry',
     lastname : 'Potter'
+}*/
+
+
+function userName (firstname, lastname){
+
+    //const userName = user.firstname;
+    //const userLastname = user.lastname;
+    return {
+
+        firstname : firstname, //inserisco il parametro
+        lastname : lastname
+    }
 }
 
 
-function userName (firstName, lastName){
-
-    const userName = user.firstname;
-    const userLastname = user.lastname;
-    return `${userName}+' '+ ${userLastname}`
-}
-
-
-module.exports = userName(firstName, lastName)
+module.exports = userName;
+/*Crea una funzione che accetta due parametri: firstName, lastName.
+ La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName.
+Esporta la funzione dal file.*/
