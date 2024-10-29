@@ -2,7 +2,7 @@
 
 function hobbies (hobbyOne, hobbyTwo, hobbyThree) {
 
-    return hobbies = [hobbyOne, hobbyTwo, hobbyThree];
+    return [hobbyOne, hobbyTwo, hobbyThree];
 }
 
-module.exports = hobbies
+module.exports = hobbies(hobbyOne, hobbyTwo, hobbyThree)

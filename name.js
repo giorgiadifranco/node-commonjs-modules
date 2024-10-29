@@ -14,4 +14,4 @@ function userName (firstName, lastName){
 }
 
 
-module.exports = userName
+module.exports = userName(firstName, lastName)
